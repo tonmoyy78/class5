@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.Full-form{
+    background-image: url(./picture/banner.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: auto;
+    position: absolute;
+    
+}
+
+.box{
+    text-align: center;
+    background-color: #fff;
+    margin: auto;
+    width: 600px;
+    margin-top: 330px;
+}
+
+.box input{
+    width: 90%;
+    height: 20px;
+    margin: 9px;
+}
+
+.box input:focus{
+    background-color: darkkhaki;
+}
+
+.box a{
+    text-decoration: none;
+    color: black;
+}
+
+.box form button{
+    background-color: rgb(226, 131, 107);
+    cursor: pointer;
+}
+
+.box form button:hover{
+    background-color: darkcyan;
+    transition: ease-in-out 0.5s;
+}
